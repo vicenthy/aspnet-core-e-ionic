@@ -1,0 +1,15 @@
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/bin/Debug/netcoreapp2.0/NUnit3.TestAdapter.dll
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/bin/Debug/netcoreapp2.0/NUnit3.TestAdapter.pdb
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/bin/Debug/netcoreapp2.0/nunit.engine.netstandard.dll
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/bin/Debug/netcoreapp2.0/Mono.Cecil.dll
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/obj/Debug/netcoreapp2.0/WebAPI.Test.csprojAssemblyReference.cache
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/obj/Debug/netcoreapp2.0/WebAPI.Test.csproj.CoreCompileInputs.cache
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/obj/Debug/netcoreapp2.0/WebAPI.Test.AssemblyInfoInputs.cache
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/obj/Debug/netcoreapp2.0/WebAPI.Test.AssemblyInfo.cs
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/obj/Debug/netcoreapp2.0/WebAPI.Test.dll
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/obj/Debug/netcoreapp2.0/WebAPI.Test.pdb
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/bin/Debug/netcoreapp2.0/WebAPI.Test.deps.json
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/bin/Debug/netcoreapp2.0/WebAPI.Test.runtimeconfig.json
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/bin/Debug/netcoreapp2.0/WebAPI.Test.runtimeconfig.dev.json
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/bin/Debug/netcoreapp2.0/WebAPI.Test.dll
+/home/atila/Desenvolvimento/DesafioBRQ/tests/WebAPI.Test/bin/Debug/netcoreapp2.0/WebAPI.Test.pdb

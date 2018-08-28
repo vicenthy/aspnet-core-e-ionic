@@ -1,0 +1,8 @@
+src/App/node_modules/
+src/WebAPI.api/bin
+src/WebAPI.infra.Data/bin/
+test/WebAPI.Test/bin/
+*.pdb
+*.dll
+
+

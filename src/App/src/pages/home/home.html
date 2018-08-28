@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      BRQ To-Do
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-card>
+    <progress-bar [progress]="loadProgress"></progress-bar>
+    <ion-searchbar (ionInput)="search($event)"></ion-searchbar>
+    <ion-item>
+      <ion-input (keyup.enter)="adicionar()" type="text" [(ngModel)]="tarefa.nomeTarefa" placeholder="Adicionar nova Tarefa"></ion-input>
+      <button ion-button item-right clear style="width: 50px;" (click)="adicionar()">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-item>
+    <ion-list *ngFor="let tarefa of tarefas">
+      <ion-item-sliding>
+        <ion-item>
+          <ion-checkbox checked="{{tarefa.feito}}" (click)="alterarTarefa(tarefa)">
+          </ion-checkbox>
+          <ion-label [ngStyle]="{'text-decoration': tarefa.feito ? 'line-through':'none'}">{{tarefa.nomeTarefa}}</ion-label>
+        </ion-item>
+        <ion-item-options side="right">
+          <button ion-button (click)="navegarParaSubTarefas(tarefa)">
+            <ion-icon name="open"></ion-icon>
+          </button>
+          <button ion-button color="danger" (click)="deletar(tarefa.id)">
+            <ion-icon name="trash"></ion-icon>
+          </button>
+        </ion-item-options>
+      </ion-item-sliding>
+    </ion-list>
+  </ion-card>
+
+</ion-content>
+
+

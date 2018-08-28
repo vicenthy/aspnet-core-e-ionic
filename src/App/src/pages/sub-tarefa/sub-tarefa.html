@@ -1,0 +1,42 @@
+<!--
+  Generated template for the SubTarefaPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>  {{tarefa.nomeTarefa}}
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+  <ion-card>
+      <ion-item>
+          <ion-textarea [(ngModel)]="tarefa.descricao" row="10" placeholder="Descrição da Tarefa"></ion-textarea>
+        </ion-item>
+    <ion-item>
+      <ion-input (keyup.enter)="adicionar()" type="text" [(ngModel)]="subTarefa.nomeSubTarefa" placeholder="Adicionar nova SubTarefa"></ion-input>
+      <button ion-button item-right clear style="width: 50px;" (click)="adicionar()">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-item>
+    <ion-list *ngFor="let subtarefa of tarefa.subTarefas">
+      <ion-item-sliding>
+        <ion-item>
+          <ion-checkbox checked="{{subtarefa.feito}}" (click)="alterarSubTarefa(subtarefa)">
+          </ion-checkbox>
+          <ion-label [ngStyle]="{'text-decoration': subtarefa.feito ? 'line-through':'none'}">{{subtarefa.nomeSubTarefa}}</ion-label>
+        </ion-item>
+        <ion-item-options side="right">
+          <button ion-button color="danger" (click)="deletar(subtarefa)">
+            <ion-icon name="trash"></ion-icon>
+          </button>
+        </ion-item-options>
+      </ion-item-sliding>
+    </ion-list>
+  </ion-card>
+
+</ion-content>
